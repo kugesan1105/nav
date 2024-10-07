@@ -1,0 +1,21 @@
+name,difficulty,topics,prerequisites
+python_basics,1,"['variables', 'loops', 'functions']","[]"
+oop_in_python,2,"['classes', 'inheritance', 'polymorphism']","['python_basics']"
+data_structures,3,"['arrays', 'linked lists', 'hash maps']","['oop_in_python']"
+algorithms,4,"['searching', 'sorting', 'greedy algorithms']","['data_structures']"
+geometry,3,"['points', 'lines', 'angles']","[]"
+trigonometry,4,"['sine', 'cosine', 'tangent']","['geometry', 'algebra']"
+algebra,4,"['equations', 'functions']",[]
+statistics,5,"['mean', 'median', 'mode']","['algebra']"
+discrete_mathematics,5,"['sets', 'relations', 'functions']","['algebra']"
+linear_algebra,5,"['vectors', 'matrices', 'eigenvalues']","['algebra']"
+calculus,5,"['limits', 'derivatives', 'integrals']","['algebra']"
+machine_learning,6,"['linear regression', 'neural networks']","['algorithms', 'statistics', 'calculus', 'linear_algebra']"
+deep_learning,7,"['convolutional neural networks', 'recurrent neural networks']","['machine_learning']"
+reinforcement_learning,8,"['markov decision processes', 'Q-learning']","['deep_learning']"
+natural_language_processing,8,"['tokenization', 'named entity recognition']","['deep_learning']"
+computer_vision,8,"['edge detection', 'object recognition']","['deep_learning']"
+robotics,9,"['kinematics', 'control theory']","['computer_vision', 'reinforcement_learning']"
+html_css_basics,1,"['html', 'css']",[]
+javascript_basics,2,"['variables', 'dom manipulation']","['html_css_basics']"
+react_js,3,"['components', 'state']","['javascript_basics']"

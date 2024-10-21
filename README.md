@@ -16,4 +16,11 @@ This repository contains the source code for a Course Path Navigator, a Graphica
   3. Retry Button:
        - Use the retry button to clear the input and try again with different courses.
 
+### Watch a demo of the Course Path Navigator:
+<p align="center">
+  <a href="https://youtu.be/922ijWWy2y0">
+    <img src="https://img.youtube.com/vi/922ijWWy2y0/maxresdefault.jpg" alt="Course Path Navigator Demo" title="Course Path Navigator Demo" width="30%" style="border: 2px solid #555; border-radius: 10px;">
+  </a>
+</p>
+
 ![image](https://github.com/user-attachments/assets/1ce456f5-1aa1-49cb-b73c-3bb3c330341c)

@@ -37,7 +37,10 @@ class Button {
         text_surf = font.render(self.text, True, BLACK);
         screen.blit(
             text_surf,
-            ((self.rect.x + ((self.rect.width - text_surf.get_width()) / 2)), (self.rect.y + ((self.rect.height - text_surf.get_height()) / 2)))
+            (
+                (self.rect.x + ((self.rect.width - text_surf.get_width()) / 2)), 
+                (self.rect.y + ((self.rect.height - text_surf.get_height()) / 2))
+            )
         );
     }
 
